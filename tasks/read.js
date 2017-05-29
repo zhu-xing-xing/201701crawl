@@ -16,7 +16,7 @@ exports.read = function(url,callback){
 				name:$this.text(),
 				url:$this.attr('href')
 			};
-			debug(`读到电影:${movie.name}`)
+			debug(`读到电影:${movie.name}`);
 			movies.push(movie);
 		});
 		callback(err,movies);
