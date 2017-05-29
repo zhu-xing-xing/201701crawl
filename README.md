@@ -11,4 +11,4 @@ npm install request cheerio cron ejs debug express async mongoose iconv-lite -S
 ```
 
 ### 3.实现的思路
-1.向指定的网页发出请求,并得到相应
+1.向指定的网页发出请求,并得到响应
